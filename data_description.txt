@@ -1,0 +1,33 @@
+|     Column          |     Description   | 
+|---------------------|-------------------|
+|Column Name          | Column Description |
+|CMPLNT_NUM           |Randomly generated persistent ID for each complaint |
+|BORO_NM              |The name of the borough in which the incident occurred |
+|CMPLNT_FR_DT         |Exact date of occurrence for the reported event (or starting date of occurrence, if CMPLNT_TO_DT exists) |
+|CMPLNT_FR_TM         |Exact time of occurrence for the reported event (or starting time of occurrence, if CMPLNT_TO_TM exists) |
+|KY_CD                |Three digit offense classification code |
+|LAW_CAT_CD           |Level of offense: felony, misdemeanor, violation | 
+|OFNS_DESC            |Description of offense corresponding with key code |
+|PATROL_BORO          |The name of the patrol borough in which the incident occurred |
+|PD_CD                |Three digit internal classification code (more granular than Key Code) |
+|PD_DESC              |Description of internal classification corresponding with PD code (more granular than Offense Description) |
+|PREM_TYP_DESC        |Specific description of premises; grocery store, residence, street, etc. |
+|RPT_DT               |Date event was reported to police |
+|SUSP_AGE_GROUP       |Suspect’s Age Group |
+|SUSP_RACE            |Suspect’s Race Description |
+|SUSP_SEX             |Suspect’s Sex Description |
+|LATITUDE             |Midblock Latitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326) |
+|LONGITUDE            |Midblock Longitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326) |
+|POPULATION           |       |
+|AREA                 |       |
+|COUNTY               |       |
+|ZIPCODES             |       |
+|ADJUSTED_GROSS_INCOME|       |
+|AVG_AGI              |       |
+|TOTAL_INCOME_AMOUNT  |       |
+|AVG_TOTAL_INCOME     |       |
+|TAXABLE_INCOME_AMOUNT|       |
+|AVG_TAXABLE INCOME   |       |
+|ADDR_PCT_CD          |The precinct in which the incident occurred |
+|CMPLNT_TO_DT         |Ending date of occurrence for the reported event, if exact time of occurrence is unknown |
+| CMPLNT_TO_TM        |Ending time of occurrence for the reported event, if exact time of occurrence is unknown |
