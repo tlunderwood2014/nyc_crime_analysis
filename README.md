@@ -96,12 +96,16 @@ There are 34 features and 91,7456 values within each feature of the used data. E
 
 -----------
 ## Software Requirements
+- pandas
+- numpy
+- missingno
+
 Jasdckjabsdkcjbnc
 
 
 -----------
 ## Data Cleaning Steps
-35 columns were dropped from the original data due to duplicated information, unnedded infromation, or large amount of null values. 
+35 columns were dropped from the original data due to duplicated information, extraneous features, or large amount of null values. 
 
 Missing values in remaining columns were carefully evaluated and replaced as summarized in the table below
 
