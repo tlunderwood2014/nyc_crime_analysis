@@ -43,13 +43,13 @@ aksfakjdsfa
 ## Folder Structure
 ```
 |__ code
-|   |__ part_1_data_cleaning.ipynb    
-|   |__ part_2_eda.ipynb  
+|   |__ part_1_data_cleaning.ipynb      
+|   |__ part_2.1_eda_crimes.ipynb
 |   |__ part_3_preprocessing_and_feature_engineering.ipynb 
 |   |__ part_4_modeling.ipynb 
 |__ data
 |   |__ data_description.txt
-|   |__ data_clean.ipynb
+|   |__ complaints_2018_final.csv
 |   |__ .csv
 |   |__ .csv
 |   |__ .csv
