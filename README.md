@@ -65,8 +65,20 @@ aksfakjdsfa
 |   |__ 9_model_coefficient.png
 |   |__ 10_numerical_transformation.png
 |   |__ 11_error_plot.png
+|   |__ age_group_by_sex.png
+|   |__ crime_by_amount_type.png
+|   |__ crime_by_boro.png
+|   |__ crime_distribution_by_neighborhood.png
+|   |__ crime_per_boro_2.png
+|   |__ felony_vs_misd.png
+|   |__ nviolent_per_boro.png
+|   |__ suspects_by_age.png
+|   |__ suspects_by_sex.png
+|   |__ violent_boro.png
+|   |__ violent_nonviolent_amounts.png
 |__ README.md
 ```
+
 
 -----
 ## Problem Statement
