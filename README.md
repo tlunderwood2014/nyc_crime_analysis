@@ -100,7 +100,7 @@ Each record represents a criminal complaint in NYC and includes information abot
 
 Columns that were added to the originally colelcted data:
 
-|__| POPULATION |AREA |COUNTY|ZIPCODES|ADJUSTED_GROSS_INCOME|AVG_AGI|TOTAL_INCOME_AMOUNT|AVG_TOTAL_INCOME |TAXABLE_INCOME_AMOUNT|AVG_TAXABLE INCOME|  
+| POPULATION | AREA | COUNTY | ZIPCODES | ADJUSTED_GROSS_INCOME | AVG_AGI | TOTAL_INCOME_AMOUNT | AVG_TOTAL_INCOME  | TAXABLE_INCOME_AMOUNT | AVG_TAXABLE INCOME |  
 
 These columns came from.......gsdgsdgdfg
 
