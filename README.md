@@ -99,7 +99,8 @@ This data is a breakdown of every criminal complaint report filed in NYC by the 
 Each record represents a criminal complaint in NYC and includes information abot the type of crime, the location and time of enforcement. In addition, information related to victim and suspect demographics is also included. This data can be used by the public to explore the nature of criminal activity. 
 
 Columns that were added to the originally colelcted data:
-| POPULATION |AREA |COUNTY|ZIPCODES|ADJUSTED_GROSS_INCOME|AVG_AGI|TOTAL_INCOME_AMOUNT|AVG_TOTAL_INCOME |TAXABLE_INCOME_AMOUNT|AVG_TAXABLE INCOME|  
+
+|__| POPULATION |AREA |COUNTY|ZIPCODES|ADJUSTED_GROSS_INCOME|AVG_AGI|TOTAL_INCOME_AMOUNT|AVG_TOTAL_INCOME |TAXABLE_INCOME_AMOUNT|AVG_TAXABLE INCOME|  
 
 These columns came from.......gsdgsdgdfg
 
