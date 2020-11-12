@@ -34,7 +34,14 @@
 
 -----------
 ## Executive Summary
-The costs and effect of crime touches everyone to some degree. The purpose of this project is to examine the social impact of crime in New York City by predicting its occurance. With this prediction the city can properly allocate resources to facilitate a healthier community with less crime. 
+---
+The costs and effect of crime touches everyone to some degree. We have been hired by a client who is interested in learning more about the social impact of crime in New York City. To do this, we are first conducting a study to identify any trends we can find: what factors play a significant role in increasing the occurence of crime in the city?
+
+To do this, we will first explore the data we have collected, including complaints of criminal activity logged by the NYPD, the location, various demographics of the victims and suspects, location data, income, and more. Preliminarily, we suspect that the highest predictor of crime will be location, and will therefore build supervised models to predict both the Borough of New York City the complaint is filed in, and the precinct that reponds to the complaint. 
+
+After this, we will conduct an unsupervised model on the data, to try and identify any other less obvious trends that would be beneficial to conduct further studies on in follow up data collection and analysis projects.
+
+**ORIGINAL The purpose of this project is to examine the social impact of crime in New York City by predicting its occurance. With this prediction the city can properly allocate resources to facilitate a healthier community with less crime. **
 
 aksfakjdsfa
 
