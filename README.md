@@ -43,7 +43,7 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 
 **ORIGINAL The purpose of this project is to examine the social impact of crime in New York City by predicting its occurance. With this prediction the city can properly allocate resources to facilitate a healthier community with less crime. **
 
-aksfakjdsfa
+
 
 
 -----
@@ -149,7 +149,15 @@ pd_desc                |619                 |Missing                 |     unkno
 
 -----------
 ## Exploratory Data Analysis
-Jasdckjabsdkcjbnc
+This step was conducted repeatedly throughout the course of the project, with the most significant EDA conducted at the very end of the project. The first steps of analysis were done using conventional methods, exploring the dataset as imported, searching for strong learners to pass into an estimator for the sake of classification/regression modelling. 
+
+Following this (and as a result of poor accuracy scores in modelling), an attempt at Unsupervised modeling was begun, in order to better understand the data we are working with. This was done in multiple steps:
+
+- First, an attempt at a KMeans cluster was undertaken. However, given the immense size of the data, this proved to require prohibitively large time requirements, given the dealine of our project deliverables. 
+
+- In response to this, a sample of about 35% of the data was taken in order to complete this study with the time remaining. Using the elbow method, several values of k in a kmeans were conducted, as well as a DBScan. However, these proved to return very poor silhouette scores. This was suspected to be because the data was just so complex that the model was unable to properly measure correlations.
+
+- Therefore, the model was simplified using a Principle Component Analysis to 10 features, which were then passed once again into a KMeans Analysis, after again using the elbow method. This resulted in greatly imporved results.
 
 
 -----------
@@ -169,12 +177,26 @@ Jasdckjabsdkcjbnc
 
 -----------
 ## Conclusion
-asdvavav
+
+1) EDA Conclusions:
+
+- Looking at the similarity of boroughs with the total count of complaints in New York, there appears to be unique features that separate the clusters that my model created.
+
+- Stronger than this is the Latitude and Longitude coordinates, which clearly show the separation of each cluster. Given that many of these clusters are touching, I do think it likely that some other features separate these clusters clearly along location lines. 
+
+- Despite the relatively poor performance of the classification model in the Neighborhood Analysis Notebook, this result is a clear indication that location is an imortant feature to identify differences in the impact of crime in New York - specifically, according to the map created above.
+
+*Important Caveat to these findings - due to processing and time limitations, this study had to be done on a small sampling of the entire data. This analysis would ideally be done on the entirety of the dataset, to hopefully find even stronger correlations.*
+
+2) Modeling Conclusions:
+
+- HERE LIES THE TEXT THAT WILL ONE DAY DESCRIBE OUR MODEL IN ALL ITS GLORY
 
 
 -----------
 ## Next Steps
-asdfadsvsdc
+- Sadly, the income information that was drawn for this project was merely an estimation that was too general to yield helpful results. However, it is still highly suspect to be a strong predictor of the number of and type of crimes committed. Perhpas following more recent Census and IRS data to the specific regions given above, we can analyze these differences to evaluate their effects on crime.
 
+- This data is clearly showing differences based on these geographic locations. I would recommend a thorough survey of each of these 8 regions displayed (as cluster 8, the 9th cluster, is practically not visible on the plot). An analysis of their specific traits for comparison would be helpful here. In addition, a study of each region's specific history, local laws/leaders, current events, and even a consultation with individuals knowledgeable about the areas of each cluster would lead to more advanced insight, and should likely be the primary direction of a followup study.
 
-
+- HERE WE WILL DESCRIBE MORE STEPS IF NEEDED
