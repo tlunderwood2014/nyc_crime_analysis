@@ -35,15 +35,13 @@
 -----------
 ## Executive Summary
 ---
-The costs and effect of crime touches everyone to some degree. We have been hired by a client who is interested in learning more about the social impact of crime in New York City. To do this, we are first conducting a study to identify any trends we can find: what factors play a significant role in increasing the occurence of crime in the city?
+The costs and effects of crime touches everyone to some degree. With the increased wave of crime seen within the city of NYC, the city is trying to reduce these costs and effects for its population. They hypothesize that different community programs might help, however they do not know which programs will create the most positive impact.
+
+We have been hired to analyze NYC population demographics and crime data to provide helpful information for the city so they can better examine the social impact of crime in their city. Knowing this social impact, will help them better determine how to allocate their resources amongst these community programs and create a healthier NYC.
 
 To do this, we will first explore the data we have collected, including complaints of criminal activity logged by the NYPD, the location, various demographics of the victims and suspects, location data, income, and more. Preliminarily, we suspect that the highest predictor of crime will be location, and will therefore build supervised models to predict both the Borough of New York City the complaint is filed in, and the precinct that reponds to the complaint. 
 
 After this, we will conduct an unsupervised model on the data, to try and identify any other less obvious trends that would be beneficial to conduct further studies on in follow up data collection and analysis projects.
-
-**ORIGINAL The purpose of this project is to examine the social impact of crime in New York City by predicting its occurance. With this prediction the city can properly allocate resources to facilitate a healthier community with less crime. **
-
-
 
 
 -----
@@ -178,7 +176,15 @@ Jasdckjabsdkcjbnc
 -----------
 ## Conclusion
 
-1) EDA Conclusions:
+1) Supervised Model Conclusions
+
+- We can use the coefficients created from our linear regression model to make some tentative observations regarding current law enforcement practices.  For example, as this data was taken from 2018, it’s no surprise that marijuana possession complaints were used by the model to assess how many arrests were made.  The publicly available arrest data can confirm that this crime constituted a high number of arrests.  In particular, it may be said that these types of complaints may be made less frequently without already being attached to an arrest.
+
+- We also have some data that seems to have an inverse effect on the expected numbers of arrests, such as complaints made for motorcycle theft.  This is also expected, as there are frequently reports made for certain crimes without arrests to go with them.
+Population demographic data is also included within, which may show some indication of how the demographics of the people that live in an area can affect the rates of law enforcement, independent of the frequency of the occurrence of crime.
+
+
+2) Unsupervised Model Conclusions:
 
 - Looking at the similarity of boroughs with the total count of complaints in New York, there appears to be unique features that separate the clusters that my model created.
 
@@ -198,5 +204,3 @@ Jasdckjabsdkcjbnc
 - Sadly, the income information that was drawn for this project was merely an estimation that was too general to yield helpful results. However, it is still highly suspect to be a strong predictor of the number of and type of crimes committed. Perhpas following more recent Census and IRS data to the specific regions given above, we can analyze these differences to evaluate their effects on crime.
 
 - This data is clearly showing differences based on these geographic locations. I would recommend a thorough survey of each of these 8 regions displayed (as cluster 8, the 9th cluster, is practically not visible on the plot). An analysis of their specific traits for comparison would be helpful here. In addition, a study of each region's specific history, local laws/leaders, current events, and even a consultation with individuals knowledgeable about the areas of each cluster would lead to more advanced insight, and should likely be the primary direction of a followup study.
-
-- HERE WE WILL DESCRIBE MORE STEPS IF NEEDED
