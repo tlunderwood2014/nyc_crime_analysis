@@ -52,7 +52,7 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 |   |__ part_2.1_eda_crimes.ipynb
 |   |__ part_3_preprocessing_and_feature_engineering.ipynb 
 |   |__ part_4_modeling.ipynb 
-|__ data
+|__ data: found at https://drive.google.com/drive/folders/1iBnOV1psve_Hdn87SqUN_dSicJoKg-7a?usp=sharing
 |   |__ data_description.txt
 |   |__ complaints_2018_final.csv
 |   |__ .csv
