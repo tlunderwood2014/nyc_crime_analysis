@@ -59,17 +59,6 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 |   |__ .csv
 |   |__ .csv
 |__ images
-|   |__ 1_remove_outliers.png
-|   |__ 2_numerical_distribution_fit.png
-|   |__ 3_categorical_boxplot.png
-|   |__ 4_categorical_anova.png
-|   |__ 5_corelation_feature_feature.png
-|   |__ 6_corelation_feature_feature.png
-|   |__ 7_numerical_transformation.png
-|   |__ 8_categorical_encoding.png
-|   |__ 9_model_coefficient.png
-|   |__ 10_numerical_transformation.png
-|   |__ 11_error_plot.png
 |   |__ age_group_by_sex.png
 |   |__ crime_by_amount_type.png
 |   |__ crime_by_boro.png
