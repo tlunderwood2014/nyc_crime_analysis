@@ -87,12 +87,24 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 
 -----
 ## Problem Statement
-Jasdckjabsdkcjbnc
+The costs and effects of crime touches everyone to some degree. With the increased wave of crime
+seen within the city of NYC, the city is trying to reduce these costs and effects for its population. They
+hypothesize that different community programs might help, however they do not know which
+programs will create the most positive impact.
+
+We have been hired to analyze NYC population demographics and crime data to provide helpful
+information for the city so they can better examine the social impact of crime in their city. Knowing
+this social impact, will help them better determine how to allocate their resources amongst these
+community programs and create a healthier NYC.
 
 
 -----
 ## Data Acquisition
-Jasdckjabsdkcjbnc
+[NYC Crime 2018-2019] (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
+[ZIP Codes] (https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data?no_mobile=true)
+[Neighborhood] (https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page)
+[Precinct Shapefile] (https://johnkeefe.net/nyc-police-precinct-and-census-data)
+[Population/ Income] (https://data.world/jonloyens/irs-income-by-zip-code)
 
 
 -----------
@@ -107,7 +119,7 @@ Columns that were added to the originally colelcted data:
 
 | POPULATION | AREA | COUNTY | ZIPCODES | ADJUSTED_GROSS_INCOME | AVG_AGI | TOTAL_INCOME_AMOUNT | AVG_TOTAL_INCOME  | TAXABLE_INCOME_AMOUNT | AVG_TAXABLE INCOME |  
 
-These columns came from.......gsdgsdgdfg
+These columns came from Open Data, NYC Planning, and Data World websites linked above.
 
 There are 34 features and 91,7456 values within each feature of the used data. Each features, and the description of these features can be found in this [file](./data/data_description.txt). 
 
@@ -122,7 +134,7 @@ There are 34 features and 91,7456 values within each feature of the used data. E
 - tensorflow
 - keras
 - missingno
-
+- ArcGIS: Enrich (2020)
 
 
 -----------
@@ -174,7 +186,14 @@ Jasdckjabsdkcjbnc
 
 -----------
 ## Modeling
-Jasdckjabsdkcjbnc
+Predicting Arrest Count by Using Complaint Data:
+- Linear Regression
+
+Classify criminal compaints by boro:
+- Logistic Regression, Random Forest, a Gradient Boosted Tree Model, and a Neural Network
+
+Top Performing Model:
+-PCA to KMeans: silhouette score of .436
 
 
 -----------
