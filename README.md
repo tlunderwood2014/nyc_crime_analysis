@@ -113,12 +113,16 @@ There are 34 features and 91,7456 values within each feature of the used data. E
 
 
 -----------
-## Software Requirements
+## Software Requirements/Packages Used
 - pandas
 - numpy
+- matplotlib
+- seaborn
+- sklearn
+- tensorflow
+- keras
 - missingno
 
-Jasdckjabsdkcjbnc
 
 
 -----------
