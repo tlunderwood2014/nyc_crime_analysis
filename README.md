@@ -47,18 +47,16 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 -----
 ## Folder Structure
 ```
-|__ code
+|__ code:
 |   |__ part_1_data_cleaning.ipynb      
 |   |__ part_2.1_eda_crimes.ipynb
-|   |__ part_3_preprocessing_and_feature_engineering.ipynb 
-|   |__ part_4_modeling.ipynb 
-|__ data: found at https://drive.google.com/drive/folders/1iBnOV1psve_Hdn87SqUN_dSicJoKg-7a?usp=sharing
+|   |__ Crime_Analysis.ipynb 
+|   |__ Neighborhood_Analysis.ipynb
+|   |__ comp_arrest_by_pct.ipynb
+|__ data: found [here](https://drive.google.com/drive/folders/1iBnOV1psve_Hdn87SqUN_dSicJoKg-7a?usp=sharing
 |   |__ data_description.txt
 |   |__ complaints_2018_final.csv
-|   |__ .csv
-|   |__ .csv
-|   |__ .csv
-|__ images
+|__ images:
 |   |__ age_group_by_sex.png
 |   |__ crime_by_amount_type.png
 |   |__ crime_by_boro.png
@@ -70,6 +68,7 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 |   |__ suspects_by_sex.png
 |   |__ violent_boro.png
 |   |__ violent_nonviolent_amounts.png
+|__ presentation:
 |__ README.md
 ```
 
