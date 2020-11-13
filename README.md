@@ -90,15 +90,18 @@ community programs and create a healthier NYC.
 -----
 ## Data Acquisition
 [NYC Crime 2018-2019](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
+
 [ZIP Codes](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data?no_mobile=true)
+
 [Neighborhood](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page)
+
 [Precinct Shapefile](https://johnkeefe.net/nyc-police-precinct-and-census-data)
+
 [Population/ Income](https://data.world/jonloyens/irs-income-by-zip-code)
 
 
 -----------
-## Data Description
-The data was downloaded from [NYafasf](www.asfadsfasdf.com). 
+## Data Description 
 
 This data is a breakdown of every criminal complaint report filed in NYC by the NYPD in 2018. This data was manually extracted every quarter and reviewed by the Office of Management Analysis and Planning. 
 
