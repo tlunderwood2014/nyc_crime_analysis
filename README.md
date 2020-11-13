@@ -53,9 +53,9 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 |   |__ Crime_Analysis.ipynb 
 |   |__ Neighborhood_Analysis.ipynb
 |   |__ comp_arrest_by_pct.ipynb
-|__ data: found [here](https://drive.google.com/drive/folders/1iBnOV1psve_Hdn87SqUN_dSicJoKg-7a?usp=sharing
+|__ data: 
 |   |__ data_description.txt
-|   |__ complaints_2018_final.csv
+|   |__ complaints_2018_final.csv found [here](https://drive.google.com/drive/folders/1iBnOV1psve_Hdn87SqUN_dSicJoKg-7a?usp=sharing
 |__ images:
 |   |__ age_group_by_sex.png
 |   |__ crime_by_amount_type.png
@@ -68,7 +68,7 @@ After this, we will conduct an unsupervised model on the data, to try and identi
 |   |__ suspects_by_sex.png
 |   |__ violent_boro.png
 |   |__ violent_nonviolent_amounts.png
-|__ presentation:
+|__ presentation_slides.pdf
 |__ README.md
 ```
 
