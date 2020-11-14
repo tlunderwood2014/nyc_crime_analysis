@@ -167,13 +167,13 @@ Following this (and as a result of poor accuracy scores in modelling), an attemp
 
 -----------
 ## Data Processing
-Jasdckjabsdkcjbnc
+- The original data set comprised of complaints by NYPD in NYC included information on location, type of crime, and the time that law enforcement officials arrived on scene. Additional information was available online, such as zip codes, neighborhoods, county of arrest, prescint, as well as income and population, which was combined with the original data set of complaints to provide a deeper data  analysis.
 
+- Once the data was collected and modified into columns and entries, information that was not necessary to the investigation was eliminated. Duplicate data and null values were dropped. 
 
 -----------
-## Engineer Features
-Jasdckjabsdkcjbnc
-
+## Engineering Features
+- The five boroughs of NYC (Manhattan, The Bronx, Queens, Staten Island, and Brooklyn) were added as engineering features to visualize crimes by location.
 
 -----------
 ## Modeling
