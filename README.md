@@ -208,10 +208,6 @@ Population demographic data is also included within, which may show some indicat
 
 *Important Caveat to these findings - due to processing and time limitations, this study had to be done on a small sampling of the entire data. This analysis would ideally be done on the entirety of the dataset, to hopefully find even stronger correlations.*
 
-2) Modeling Conclusions:
-
-- HERE LIES THE TEXT THAT WILL ONE DAY DESCRIBE OUR MODEL IN ALL ITS GLORY
-
 
 -----------
 ## Next Steps
